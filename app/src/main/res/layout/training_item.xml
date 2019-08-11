@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    app:cardCornerRadius="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/text_pink_title"
+                tools:text="BBG" />
+
+            <TextView
+                android:id="@+id/subTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/text_grey_middle"
+                tools:text="with Kayl Itsines" />
+
+            <LinearLayout
+                android:id="@+id/dropLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/drop1"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/sweat_drop_filled"
+                    tools:srcCompat="@drawable/sweat_drop_filled" />
+                />
+                <ImageView
+                    android:id="@+id/drop2"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/sweat_drop"
+                    tools:srcCompat="@drawable/sweat_drop" />
+                />
+                <ImageView
+                    android:id="@+id/drop3"
+                    android:layout_width="25dp"
+                    android:layout_height="20dp"
+                    app:srcCompat="@drawable/sweat_drop"
+                    tools:srcCompat="@drawable/sweat_drop" />
+                />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/weightLossTitle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="@string/title_weight_loss"
+                android:textAppearance="@style/text_grey_normal"
+                tools:text="Weight Loss" />
+
+            <ProgressBar
+                android:id="@+id/weightLossProgressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progress_bar_drawable"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:progress="20"
+                tools:progress="20" />
+
+            <TextView
+                android:id="@+id/muscleTitle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textAppearance="@style/text_grey_normal"
+                android:text="@string/title_muscle"
+                tools:text="Muscle" />
+            <ProgressBar
+                android:id="@+id/muscleProgressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progress_bar_drawable"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                tools:progress="20" />
+
+            <TextView
+                android:id="@+id/strengthTitle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textAppearance="@style/text_grey_normal"
+                android:text="@string/title_strength"
+                tools:text="Strength" />
+            <ProgressBar
+                android:id="@+id/strengthProgressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progress_bar_drawable"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                tools:progress="20" />
+
+            <TextView
+                android:id="@+id/fitnessTitle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textAppearance="@style/text_grey_normal"
+                android:text="@string/title_fitness"
+                tools:text="Fitness" />
+            <ProgressBar
+                android:id="@+id/fitnessProgressBar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progress_bar_drawable"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                tools:progress="20" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"
+            tools:srcCompat="@drawable/bbg_image" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SWEAT</string>
+    <string name="title_program_suggestions">Program Suggestions</string>
+    <string name="title_weight_loss">Weight Loss</string>
+    <string name="title_muscle">Muscle</string>
+    <string name="title_strength">Strength</string>
+    <string name="title_fitness">Fitness</string>
+
+</resources>
